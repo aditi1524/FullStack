@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Table</title>
+  <style>
+    div {
+      border : 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h2 class="h2 text-center">Table Generator</h2>
+  <hr/>
+   <div class="container">  <!-- Container-->
+      <div class="row">
+         <div class="col-md-6"> <!-- Col1-->
+
+          <form>
+            <div class="form-group row mt-3">
+              <div class="col-sm-3">
+                <label for="exampleInputPassword1" class="label ml-4 col-form-label">Your Name:</label>
+              </div>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="enter your Name" id="name">
+              </div>
+              <div class="col-sm-5"></div>
+              <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-2 ml-lg-5 ml-md-3">
+                <label for="exampleInputPassword1" class="col-form-label">RollNo:</label>
+              </div>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="enter your roll no" id="rollno">
+              </div>
+              <div class="col-sm-6"></div>
+            </div>
+           <!-- <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-primary" id="button">Submit</button>
+          </form>
+          
+         </div> <!-- Col1 Ends-->
+         
+         <div class="col-md-6"> <!-- Col 2 Start-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="table-responsive"> <!-- Div wrapped table to make it responsive -->
+                  <table class="table table-bordered table-hover table-sm" id="table"> 
+                    <thead> <!-- Head Starts-->
+                      <tr> <!-- Ist row heading-->
+                        <th>Name</th>
+                        <th>RollNo</th>
+                      </tr>
+                    </thead> <!-- Head Ens-->
+                    <tbody id="tbl"> <!-- Body Start-->
+                     <tr>
+                       <td>Aditi</td>
+                       <td>11172520</td>
+                     </tr>
+
+
+                      </tbody>
+                      </table>
+              </div>
+            </div>
+         </div> <!-- Col 2 Ends-->
+      </div> <!-- Row ends-->
+   </div> <!-- Container Ends-->
+
+
+
+
+<!--    JS code for DOM Manipulation -->
+<script>
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
